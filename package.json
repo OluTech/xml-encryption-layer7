@@ -1,0 +1,109 @@
+{
+  "_args": [
+    [
+      {
+        "escapedName": "xml-encryption-layer7",
+        "name": "xml-encryption-layer7",
+        "raw": "xml-encryption-layer7",
+        "rawSpec": "",
+        "scope": null,
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/media/sf_zav"
+    ]
+  ],
+  "_from": "xml-encryption-layer7@latest",
+  "_id": "xml-encryption-layer7@0.0.3",
+  "_inCache": true,
+  "_location": "/xml-encryption-layer7",
+  "_nodeVersion": "0.12.1",
+  "_npmUser": {
+    "email": "radhika.b.shah@gmail.com",
+    "name": "rsreddy"
+  },
+  "_npmVersion": "2.7.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "escapedName": "xml-encryption-layer7",
+    "name": "xml-encryption-layer7",
+    "raw": "xml-encryption-layer7",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/xml-encryption-layer7/-/xml-encryption-layer7-0.0.3.tgz",
+  "_shasum": "935fad96355667cd15507cf56da2e17ffa2e1a3a",
+  "_shrinkwrap": null,
+  "_spec": "xml-encryption-layer7",
+  "_where": "/media/sf_zav",
+  "author": {
+    "name": "rsreddy"
+  },
+  "bugs": {
+    "url": "https://github.com/rsreddy/node-xml-encryption-layer7/issues"
+  },
+  "contributors": [
+    {
+      "name": "Matias Woloski"
+    },
+    {
+      "email": "jfromaniello@gmail.com",
+      "name": "Jose F. Romaniello",
+      "url": "http://joseoncode.com"
+    },
+    {
+      "email": "tommi@pistogroup.com",
+      "name": "Tommi Pisto",
+      "url": "http://pasm.pis.to"
+    }
+  ],
+  "dependencies": {
+    "async": "~0.2.7",
+    "ejs": "~0.8.3",
+    "node-forge": "0.2.24",
+    "xmldom": "~0.1.15",
+    "xpath": "0.0.5"
+  },
+  "description": "[![Build Status](https://travis-ci.org/auth0/node-xml-encryption.png)](https://travis-ci.org/auth0/node-xml-encryption)",
+  "devDependencies": {
+    "mocha": "*",
+    "should": "~1.2.2"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "935fad96355667cd15507cf56da2e17ffa2e1a3a",
+    "tarball": "https://registry.npmjs.org/xml-encryption-layer7/-/xml-encryption-layer7-0.0.3.tgz"
+  },
+  "gitHead": "df334f88a1fc9d5abe88a20ac656fc46b1f48cd9",
+  "homepage": "https://github.com/rsreddy/node-xml-encryption-layer7",
+  "keywords": [
+    "xml",
+    "encryption",
+    "xmlenc",
+    "layer 7"
+  ],
+  "license": "MIT",
+  "main": "./lib",
+  "maintainers": [
+    {
+      "email": "radhika.b.shah@gmail.com",
+      "name": "rsreddy"
+    }
+  ],
+  "name": "xml-encryption-layer7",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsreddy/node-xml-encryption-layer7.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "0.0.3"
+}

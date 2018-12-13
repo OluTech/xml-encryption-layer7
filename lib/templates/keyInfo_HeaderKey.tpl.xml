@@ -1,0 +1,22 @@
+<!-- <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" 
+  xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+<%= encryptionPublicCert %>
+</wsse:Security>
+<xenc:EncryptedKey xmlns:xenc="http://www.w3.org/2001/04/xmlenc#" Id="abc1234567890abc1111">
+<xenc:EncryptionMethod Algorithm="<%= keyEncryptionMethod %>" />
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<wsse:SecurityTokenReference>
+<%= ReferenceToBinarySecurityToken %>
+</wsse:SecurityTokenReference>
+</ds:KeyInfo>
+<xenc:CipherData>
+<xenc:CipherValue>
+<%= encryptedKey %>
+</xenc:CipherValue>
+</xenc:CipherData>
+<%= ReferenceToEncryptedData %>
+</xenc:EncryptedKey>
+<wsu:Timestamp wsu:Id="TS-12345678910abc">
+<wsu:Created> <%= createdts %></wsu:Created>
+<wsu:Expires><%= expirests %></wsu:Expires>
+</wsu:Timestamp> -->

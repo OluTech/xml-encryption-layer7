@@ -1,0 +1,17 @@
+<%= encryptionPublicCert %>
+</wsse:BinarySecurityToken>
+<xenc:EncryptedKey xmlns:xenc="http://www.w3.org/2001/04/xmlenc#" Id="<%= encryptionKeyId %>">
+<xenc:EncryptionMethod Algorithm="<%= keyEncryptionMethod %>" />
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<wsse:SecurityTokenReference>
+<%= ReferenceToBinarySecurityToken %>
+</wsse:SecurityTokenReference>
+</ds:KeyInfo>
+<xenc:CipherData>
+<xenc:CipherValue>
+<%= encryptedKey %>
+</xenc:CipherValue>
+</xenc:CipherData>
+<%= ReferenceToEncryptedData %>
+</xenc:EncryptedKey>
+</wsse:Security>
